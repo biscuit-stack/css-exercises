@@ -1,0 +1,17 @@
+/* .container .text {
+    text-align: center;
+    background-color: yellow;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "Times New Roman";
+    font-weight: 900;
+    font-size: 30px;
+} */
+
+.container p {
+    text-align: center;
+    background-color: yellow;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "Times New Roman";
+    font-weight: 900;
+    font-size: 30px;
+}
