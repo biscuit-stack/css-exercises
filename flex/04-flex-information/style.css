@@ -1,13 +1,42 @@
-body {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
   font-family: 'Courier New', Courier, monospace;
+  height: 100%;
+}
+
+.main-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images-wrapper {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  flex-wrap: wrap
+}
+
+.images-wrapper .info-box {
+  /* border: 2px solid red; */
+  flex-basis: 200px;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  /* display: block; */
 }
 
 .title {
+  margin-bottom: 2rem;
   font-size: 36px;
   font-weight: 900;
 }
