@@ -2,16 +2,25 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
   background: #eee;
   font-family: Besley, serif;
+  height: 100%;
 }
 
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -29,12 +38,14 @@ body {
   font-style: italic;
 }
 
-button {
+button.notifications {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: 2rem;
+  /* align-self: center; */
 }
 
 a {
@@ -44,5 +55,19 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.right-elements {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  align-items: center;
 }
